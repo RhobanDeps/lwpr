@@ -18,5 +18,5 @@ set(SOURCES_FILES
 )
 
 #Build Code as static library
-add_library(lwpr STATIC ${SOURCES_FILES})
+add_library(lwpr SHARED ${SOURCES_FILES})
 
