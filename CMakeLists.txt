@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 2.8)
 project(LWPR)
 
+#Deps depencencies
+find_package(Deps)
+deps_add_libraries()
+
 #Include sources directory
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)

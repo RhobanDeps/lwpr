@@ -2,7 +2,6 @@
     "name": "rhobandeps/lwpr",
     "deps": ["rhobandeps/eigen"],
     "includes": ["include"],
-    "libraries": "build",
     "links": "build/liblwpr.so",
     "build": [
         "mkdir -p build",
