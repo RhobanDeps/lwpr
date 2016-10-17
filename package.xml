@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>lwpr</name>
+  <version>0.0.0</version>
+  <description>A fixed version of lwpr with catkin support</description>
+
+  <maintainer email="qrouxel@labri.fr">Quentin Rouxel</maintainer>
+  <author email="missing@missing.com">Stefan Klanke</author>
+  <author email="sethu.vijayakumar@ed.ac.uk">Sethu Vijayakumar</author>
+
+  <license>LGPL</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>Eigen</build_depend>
+
+  <run_depend>Eigen</run_depend>
+
+  <export>
+  </export>
+</package>

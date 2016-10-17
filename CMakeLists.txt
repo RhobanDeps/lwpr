@@ -1,9 +1,16 @@
 cmake_minimum_required(VERSION 2.8)
-project(LWPR)
+project(lwpr)
 
-#Deps depencencies
-find_package(Deps)
-deps_add_libraries()
+find_package(catkin REQUIRED COMPONENTS
+  Eigen
+  )
+
+catkin_package(
+  INCLUDE_DIRS include
+  LIBRARIES lwpr
+  CATKIN_DEPENDS Eigen
+)
+
 
 #Include sources directory
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
