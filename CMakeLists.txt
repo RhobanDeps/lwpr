@@ -2,13 +2,13 @@ cmake_minimum_required(VERSION 2.8)
 project(lwpr)
 
 find_package(catkin REQUIRED COMPONENTS
-  Eigen
+  eigen
   )
 
 catkin_package(
   INCLUDE_DIRS include
   LIBRARIES lwpr
-  CATKIN_DEPENDS Eigen
+  CATKIN_DEPENDS eigen
 )
 
 

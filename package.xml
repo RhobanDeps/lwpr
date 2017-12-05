@@ -12,9 +12,9 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <build_depend>Eigen</build_depend>
+  <build_depend>eigen</build_depend>
 
-  <run_depend>Eigen</run_depend>
+  <run_depend>eigen</run_depend>
 
   <export>
   </export>
